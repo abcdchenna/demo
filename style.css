@@ -1,0 +1,58 @@
+.parent{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.childone{
+  width:95%;
+  padding: 4%;
+  border: 1px solid #ddd;
+  margin:4%;
+  box shadow;3px 3px 3px #ddd;
+  border-radius: 20px;
+}
+.childtwo{
+  width:95%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin:2%;
+  box-shadow: 3px 3px 3px #ddd;
+  border-radius: 20px;
+}
+.img{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+/* for small screen mobiles*/
+@media only screen and (min-width:320px) and (max-width:400px)
+.parent{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.childone{
+  width:95%;
+  padding: 2%;
+  border: 1px solid #fff;
+  margin:2%;
+  box shadow;3px 3px 3px #ddd;
+border-radius: 20px;
+}
+.childtwo{
+  width:95%;
+  padding: 2%;
+  border: 1px solid #fff;
+  margin:2%;
+  box-shadow: 3px 3px 3px #ddd;
+  border-radius: 20px;
+}
+.img{
+  width: 95%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
