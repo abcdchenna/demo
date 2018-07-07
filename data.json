@@ -1,0 +1,46 @@
+{
+  "profile":{
+    "name":"chenna reddy",
+    "label":"full-stack developer",
+    "email":"chennareddy2582gmail.com"
+  },
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enchange my knowledge and utilizing my skills towords the growth of the organization"
+  },
+  "education":[
+    {
+      "Degree":"B.Tech",
+      "Institute":"Pvpsit",
+      "Data":["2016-20","96%"]
+
+    },
+    {
+      "Degree":"polytechnic",
+      "Institute":"AANM&VVRSR polytechnic",
+      "Data":["2014-17","80%"]
+    },
+    {
+      "Degree":"s.s.c",
+      "Institute":"Montessori E.M school ",
+      "Data":["2014","80%"]
+    }
+  ],
+  "skills":[
+    {
+      "title":"Languages",
+      "content":["C","Python","Java","C#","C++","R"]
+    },
+    {
+      "title":"DataBase",
+      "content":["SQL","MongoDB","MySql"]
+    },
+    {
+      "title":"web Technologies",
+      "content":["HTML","CSS","JavaScript","PHP"]
+    },
+    {
+      "title":"Frameworks",
+      "content":["Django","CodeIgniter"]
+    }
+  ]
+  }

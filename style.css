@@ -1,18 +1,27 @@
 .parent{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  background-color:lightgreen;
+}
+.parent1{
+  width:50%;
+padding: 2%;
+border: 1px solid #fff;
+margin:2%;
+box shadow;3px 3px 3px #ddd;
+border-radius: 20px;
 }
 .childone{
-  width:95%;
-  padding: 4%;
+  width:70%;
+  padding: 2%;
   border: 1px solid #ddd;
-  margin:4%;
+  margin:2%;
   box shadow;3px 3px 3px #ddd;
   border-radius: 20px;
 }
 .childtwo{
-  width:95%;
+  width:70%;
   padding: 2%;
   border: 1px solid #ddd;
   margin:2%;
@@ -20,21 +29,29 @@
   border-radius: 20px;
 }
 .img{
-  width: 50%;
-  height: auto;
+  width: 40%;
+  height: 40%;
   display: block;
   margin-left: auto;
   margin-right:auto;
 }
 /* for small screen mobiles*/
-@media only screen and (min-width:320px) and (max-width:400px)
+@media only screen and (min-width: 769px) and (max-width: 1024px){
 .parent{
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.parent1{
+  width:50%;
+  padding: 2%;
+  border: 1px solid #fff;
+  margin:2%;
+  box shadow;3px 3px 3px #ddd;
+border-radius: 20px;
+}
 .childone{
-  width:95%;
+    width:70%;
   padding: 2%;
   border: 1px solid #fff;
   margin:2%;
@@ -42,17 +59,14 @@
 border-radius: 20px;
 }
 .childtwo{
-  width:95%;
+  width: 70%;
   padding: 2%;
   border: 1px solid #fff;
   margin:2%;
   box-shadow: 3px 3px 3px #ddd;
   border-radius: 20px;
 }
-.img{
-  width: 95%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right:auto;
+h1{
+  text-align: center;
+}
 }
